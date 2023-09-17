@@ -17,25 +17,6 @@
 
 }
 
-/* Existing CSS */
-
-.page {
-  /* ... other styles ... */
-  border-left: 1px solid #888;
-  /* Add a border to the left side of the page */
-  overflow: auto;
-  /* Ensure that the border extends to the bottom of the page */
-}
-
-.side-bar {
-  /* ... other styles ... */
-  border-right: 1px solid #888;
-  /* Add a border to the right side of the sidebar */
-}
-
-/* ... rest of your CSS ... */
-
-
 .floated {
   display: inline-block;
   position: relative;
@@ -145,7 +126,6 @@ h3 {
 
 .side-bar {
   display: false;
-  position: absolute;
   margin: false;
   top: 60px;
   left: 5%;
@@ -246,7 +226,7 @@ h3 {
   letter-spacing: 4px;
   font-weight: 600;
   line-height: 28px;
-  margin: 60px auto 10px;
+  margin: auto 10px;
   padding-bottom: 5px;
   border-bottom: 1px solid #888;
 }
