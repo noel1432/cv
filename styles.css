@@ -126,6 +126,7 @@ h3 {
 
 .side-bar {
   display: false;
+  position: absolute;
   margin: false;
   top: 60px;
   left: 5%;
